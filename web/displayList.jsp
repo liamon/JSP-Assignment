@@ -20,8 +20,7 @@
                 <li class="email-address">${email}</li>
             </c:forEach>
         </ul>
-        <!-- I originally forgot the next two lines, but I've added them in for GitHub. -->
-        <br>
-        <a href="addUser.html">Add an email to the list</a>
+        <!-- I originally forgot this link, but I've added it in for GitHub. -->
+        <p><a href="addUser.html">Add an email to the list</a></p>
     </body>
 </html>
