@@ -1,0 +1,50 @@
+/* 
+    Created on : 21-Sep-2017, 12:02:22
+    Author     : 15349756
+*/
+
+* {
+    background-color: #ADD8E6;
+    font-family: sans-serif;
+}
+
+input[type=text] {
+    background-color: aliceblue;
+    font-family: monospace;
+}
+
+input[type=text]:focus {
+    background-color: ghostwhite;
+}
+
+input[type=submit] {
+    background-color: deepskyblue;
+    font-weight: bold;
+}
+
+input[type=submit]:active, input[type=submit]:hover, input[type=submit]:focus {
+    background-color: lightskyblue;
+}
+
+#empty-list {
+    font-style: oblique;
+    font-size: 16pt;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#email-list {
+    position: relative;
+    top: -0.75em;
+}
+
+li.email-address {
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 16pt;
+    margin-bottom: 0.25em;
+    position: relative;
+    left: -1em;
+}
